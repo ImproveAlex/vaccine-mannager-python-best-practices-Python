@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_cancel_appointment_tests.TestGetVaccineDate-20220523224856" tests="11" file="test_cancel_appointment_tests.py" time="0.130" timestamp="2022-05-23T22:48:56" failures="0" errors="0" skipped="0">
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_all_ok_ec" time="0.031" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_all_ok_estructural_analysis" time="0.016" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_appointment_already_cancelled" time="0.007" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_appointment_expired" time="0.011" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_appointment_not_found" time="0.007" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_bad_labels" time="0.010" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_vaccine_already_administrated" time="0.008" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_wrong_cancellation_type" time="0.007" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_wrong_date_signature" time="0.006" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_wrong_json_structure" time="0.020" timestamp="2022-05-23T22:48:56"/>
+	<testcase classname="test_cancel_appointment_tests.TestGetVaccineDate" name="test_wrong_reason" time="0.007" timestamp="2022-05-23T22:48:56"/>
+</testsuite>
