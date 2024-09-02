@@ -1,0 +1,52 @@
+"""Modulo para los mensajes de error"""
+from enum import Enum
+
+
+class ErrorMsg(Enum):
+    """Clase con los mensajes de error"""
+    ALREADY_CANCELLED = "Appointment is already cancelled"
+    ALREADY_VACCINATED = "Vaccination has already been administered"
+    ALREADY_REGISTERED_PATIENT = "patien_id is registered in store_patient"
+    INCORRECT_DATE = "Today is not the date"
+
+    NOT_VALID_LOG_OBJ = "Invalid VaccinationLog object"
+    NOT_VALID_PATIENT_OBJ = "Invalid patient object"
+    NOT_VALID_APPOINTMENT_OBJ = "Invalide appointment object"
+    NOT_VALID_DATE_SIGNATURE = "date_signature format is not valid"
+    NOT_VALID_ID = "Id received is not a UUID"
+    NOT_VALID_UUID = "UUID invalid"
+    NOT_VALID_REGISTRATION_TYPE = "Registration type is nor valid"
+    NOT_VALID_PHONE_NUMBER = "phone number is not valid"
+    NOT_VALID_PATIENT_SYSTEM_ID = "patient system id is not valid"
+    NOT_VALID_NAME_SURNAME = "name surname is not valid"
+    NOT_VALID_AGE = "age is not valid"
+    NOT_VALID_DATE = "Today is not the date"
+    NOT_VALID_CANCELLATION_TYPE = "Invalid cancelation type"
+    NOT_VALID_CANCELATION_REASON = "Invalid cancelation reason"
+    NOT_VALID_APPOINTMENT = "Appointment has expired"
+    NOT_VALID_DATE_FORMAT = "Invalid date format"
+    NOT_VALID_VACC_DATE = "Vaccination date must be posterior to current date"
+
+    NOT_FOUND_APPOINTMENT = "Appointment does not exist"
+    NOT_FOUND_PATIENT_SYSTEM_ID = "patient_system_id not found"
+    NOT_FOUND_DATE_SIGNATURE = "date_signature is not found"
+    NOT_FOUND_STORE_DATE = "Store_date not found"
+    NOT_FOUND_FILE = "Wrong file or file path"
+    NOT_FOUND_FILE_JSON = "File is not found"
+
+    JSON_DECODE = "JSON Decode Error - Wrong JSON Format"
+    MANIPULATED_PATIENT_DATA = "Patient's data have been manipulated"
+
+    WRONG_LABLE_DATE_SIGNATURE = "Bad label date signature"
+    WRONG_LABLE_CANCELATION_TYPE = "Bad label cancelation type"
+    WRONG_LABLE_REASON = "Bad label reason"
+    WRONG_LABEL_PHONE = "Bad label contact phone"
+    WRONG_LABEL_PATIENT_ID = "Bad label patient_id"
+
+    WRONG_LABEL_VPR_PATIENT_ID = "Bad label contact phone"
+    WRONG_LABEL_VPR_FULL_NAME = "Bad label full name"
+    WRONG_LABEL_VPR_REGISTRATION_TYPE = "Bad label registration type"
+    WRONG_LABEL_VPR_PHONE_NUMBER = "Bad label phone number"
+    WRONG_LABEL_VPR_AGE = "Bad label age"
+    WRONG_LABEL_VPR_TIME_STAMP = "Bad label time stamp"
+    WRONG_LABEL_VPR_PATIENT_SYSTEM_ID = "Bad label patient sys id"
